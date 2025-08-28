@@ -1,0 +1,621 @@
+body{
+    margin: auto;
+    font-family: "inter", sans-serif;
+    background-color: #FFF8F2 ;
+}
+
+/*  HEADER INTRO */
+
+.home{
+  background-color: #FFF8F2;
+  padding: 0 20px 0;
+  border-bottom: 2px solid;
+  border-color: #EC6426;
+  margin-bottom: 80px;
+}
+
+/*  HEADER */
+header{
+  background-color: #FFF8F2;
+  padding: 0 20px 0;
+  border-bottom: 2px solid;
+  border-color: #EC6426;
+}
+
+header a {
+    color: #632713;
+    text-decoration: none;
+} 
+
+header a:hover {
+  color: #EC6426;
+}
+
+header a.active{
+  color: #EC6426;
+  font-weight: bolder;
+}
+
+.contenutoheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+h1{
+  font-family: "MuseoModerno";
+  color: #EC6426;
+} 
+p{
+  font-size: 15pt;
+}
+
+
+main{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEROSECTION */
+.herosection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+h2{
+  font-family: "MuseoModerno";
+  font-size: 50pt;
+  line-height: 96%;
+  color: #EC6426;
+  flex: 1 1 50%;
+  max-width: 450px;
+  padding-right: 100px;
+}
+
+.image{
+  flex: 0 0 50%;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* INTRO */
+.intro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 70px;
+  margin-bottom: 100px;
+}
+
+.testointro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 50%;
+  max-width: 450px;
+}
+
+.testointro p{
+  font-size: 15pt;
+  color: #632713;
+}
+
+.testointro a{
+  align-items: center;
+  text-decoration: none;
+  font-size: 15pt;
+  color: #632713;
+  font-weight: bolder;
+}
+
+.testointro a:hover{
+  color: #EC6426;
+}
+
+.space2{
+  background-color: #FFF8F2;
+  width: 550px;
+  height: 500px;
+}
+
+.image5{
+  flex: 0 0 50%;
+  width: 550px;
+  height: 550px;
+  object-fit: cover;
+}
+
+
+/* CARDS */
+.cards {
+  width: 100%;
+  padding: 60px 0;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.griglia {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: nowrap; 
+  padding: 0 40px;
+}
+
+.card {
+  width: 160px;
+  flex-shrink: 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.card a {
+  text-decoration: none;
+  color: #EC6426;
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+
+.card h4 {
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0;
+} 
+
+
+
+
+/*Europa*/
+
+.herocontinente{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1100px;
+  height: 550px;
+  background-color: #FCD99D;
+  margin: 0 auto;
+}
+
+h3{
+  font-family: "MuseoModerno";
+  font-size: 50pt;
+  color: #EC6426;
+  flex: 1 1 50%;
+  max-width: 450px;
+}
+
+.space{
+  flex: 0 0 50%;
+  background-color: #FFF8F2;
+  width: 550px;
+  height: 550px;
+}
+
+.contenutoherocontinente{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  flex: 1 1 50%;
+}
+
+.contenutoherocontinente p{
+  font-size: 15pt;
+  color: #632713;
+  max-width: 450px;
+}
+
+.intro2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.image3{
+  display: flex;
+  align-items: center;
+  flex: 1 1 50%;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+
+}
+
+.image2{
+  flex: 0 0 50%;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.image4{
+  flex: 0 0 50%;
+  width: 100%;
+  height: 550px;
+  object-fit: cover; /*coso di merda*/
+}
+
+
+h5{
+  color: #632713;
+  font-size: 25pt;
+  margin-bottom: -20px;
+}
+h6{
+  color: #EC6426;
+  font-size: 20pt;
+  margin-top: 60px;
+  margin-bottom: -3px;
+}
+.h5normale{
+  margin-bottom:15px;
+}
+.vuota{
+  padding-bottom: 60px;
+}
+
+.sfondobg{
+background-color: #FCD99D;
+width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+ padding-bottom: 60px;
+}
+.sfondo{
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px; 
+  margin: 0 auto 80px auto;
+}
+.testocibi{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.testocibi p{
+  margin-top: 0px;
+  max-width: 500px;
+  font-size: 12pt;
+}
+
+.imgcibi{
+  height: 270px;
+  width: 350px;
+  object-fit: cover;
+}
+
+
+
+
+/*street food fusion*/
+
+.sfondobg2{
+  background-color: #FCD99D;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.color{
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px; 
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.vuotolista2{
+  display: flex;
+  flex-direction: row;
+}
+
+.vuotolista3{
+  display: flex;
+  flex-direction: column;
+}
+
+.vuotolista3 p{
+  font-size: 12pt;
+  max-width: 600px;
+  flex: 1 1 50%;
+  padding-right: 100px;
+}
+
+.lista3{
+  padding-right: 45px;
+}
+
+.vuotolista2 img{
+  max-width: 600px;
+  height: 250px;
+  flex: 0 0 50%;
+  object-fit: cover;
+}
+
+.vuotolista3 a{
+  color:#EC6426;
+  font-size: 20pt;
+  margin-top: 60px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.vuotolista3 a:hover {
+  color: #632713;
+}
+.ramen{
+  display: flex;
+}
+
+.africp{
+  margin-right: 200px;
+}
+
+/* CURIOSITà */
+
+.testo{
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.testo p {
+  max-width: 500px;
+  font-size: 12pt;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+  font-size: 10pt;
+  padding: 40px;
+  margin-top: 150px;
+}
+
+.contenutofooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenutofooter ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.contenutofooter li {
+  margin-right: 20px;
+  display: inline;
+}
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 600px) {
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  
+  /* HERO */
+  .herosection {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .herosection h2 {
+    font-size: 28pt;
+    padding-right: 0;
+    max-width: 100%;
+  }
+
+  .image, .space2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .intro {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .testointro {
+    max-width: 100%;
+  }
+
+  .testointro p,
+  .testointro a {
+    font-size: 14pt;
+  }
+
+  .griglia{
+  flex-direction: column;
+  align-items: center;
+  }
+
+
+  /* INTRO CONTINENTI */
+ .herocontinente {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .herocontinente h3 {
+    font-size: 28pt;
+    max-width: 100%;
+  }
+
+  .space{
+    width: 100%;
+    height: 200px;
+  }
+
+  .contenutoherocontinente {
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .contenutoherocontinente p {
+    max-width: 100%;
+    font-size: 14pt;
+    text-align: center;
+  }
+
+  .intro2 {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+
+  .image2,
+  .image3,
+  .image5{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+
+
+  h5 {
+    font-size: 18pt;
+    margin-bottom: 5px;
+  }
+
+  h6 {
+    font-size: 16pt;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .sfondobg {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .sfondo {
+    max-width: 95%;
+    margin: 0 auto 40px auto;
+  }
+
+  .testocibi {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .testocibi p {
+    max-width: 100%;
+    font-size: 11pt;
+  }
+
+  .imgcibi {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  
+  /*street food fusion*/
+
+  .sfondobg2 {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  
+  .color {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vuotolista2 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .vuotolista3 {
+    width: 100%;
+  }
+
+  .vuotolista3 p {
+    max-width: 100%;
+    padding-right: 0;
+    font-size: 11pt;
+  }
+
+  .vuotolista3 a {
+    font-size: 16pt;
+  }
+
+  .vuotolista2 img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .contenutofooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+}
