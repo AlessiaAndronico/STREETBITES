@@ -552,7 +552,8 @@ footer {
 
   .image2,
   .image3,
-  .image5{
+  .image5,
+  .image6{
     width: 100%;
     height: auto;
     max-height: 400px;
