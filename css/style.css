@@ -196,40 +196,29 @@ h2{
 /*Europa*/
 
 .herocontinente{
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  max-width: 1100px;
+  max-width: 550px;
   height: 550px;
   background-color: #FCD99D;
-  margin: 0 auto;
 }
 
 h3{
   font-family: "MuseoModerno";
   font-size: 50pt;
   color: #EC6426;
-  flex: 1 1 50%;
   max-width: 450px;
-}
-
-.space{
-  flex: 0 0 50%;
-  background-color: #FFF8F2;
-  width: 550px;
-  height: 550px;
+  margin-top: 0;
+  margin-left: 50px;
+  padding-top: 100px;
 }
 
 .contenutoherocontinente{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 40px;
-  margin-bottom: 40px;
-  flex: 1 1 50%;
+height:100%
 }
 
 .contenutoherocontinente p{
+  margin-top: 10px;
+  margin-left: 50px;
   font-size: 15pt;
   color: #632713;
   max-width: 450px;
