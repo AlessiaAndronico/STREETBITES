@@ -129,10 +129,18 @@ h2{
   color: #EC6426;
 }
 
-.space2{
-  background-color: #FFF8F2;
+.intro3{
+  max-width: 1100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.image6{
   width: 550px;
-  height: 500px;
+  height: 550px;
+  object-fit: cover;
+  margin-bottom: 30px;
 }
 
 .image5{
@@ -484,12 +492,6 @@ footer {
     font-size: 28pt;
     padding-right: 0;
     max-width: 100%;
-  }
-
-  .image, .space2 {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
   }
 
   .intro {
