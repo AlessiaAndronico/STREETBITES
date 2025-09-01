@@ -129,11 +129,11 @@ h2{
   color: #EC6426;
 }
 
-.space2{
+/*.space2{
   background-color: #FFF8F2;
   width: 550px;
   height: 500px;
-}
+}*/
 
 .image5{
   flex: 0 0 50%;
@@ -202,7 +202,7 @@ h2{
   background-color: #FCD99D;
 }
 
-h3{
+.herocontinente h3{
   font-family: "MuseoModerno";
   font-size: 50pt;
   color: #EC6426;
@@ -479,6 +479,7 @@ footer {
   }
 
   .herocontinente h3 {
+    padding-top: 30px;
     margin: 0;
     font-size: 28pt;
     max-width: 100%;
