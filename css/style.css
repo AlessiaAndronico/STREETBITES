@@ -294,12 +294,13 @@ h6{
 }
 
 .sfondobg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #FCD99D;
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
- padding-bottom: 60px;
+  width: 1100px;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
 }
 .sfondo{
   display: flex;
@@ -312,7 +313,6 @@ h6{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .testocibi p{
@@ -325,6 +325,7 @@ h6{
   height: 270px;
   width: 350px;
   object-fit: cover;
+  margin-left: 10px;
 }
 
 /*continenti*/
@@ -366,16 +367,53 @@ h6{
 }
 
 
+/*street food fusion funzionante*/
 
+.list1{
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto 40px auto;
+}
 
+.list2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
 
+.list3{
+    display: flex;
+    flex-direction: column;
+}
 
+.list1 img{
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.list3 p{
+    max-width: 500px;
+    font-size: 12pt;
+}
+
+.giallo1{
+    background-color: #FCD99D;
+}
+
+.intro3 img{
+  max-width: 550px;
+}
 
 
 /*street food fusion*/
 
 .sfondobg2{
   background-color: #FCD99D;
+  max-width: 1100px;
+  width: 100%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -388,9 +426,7 @@ h6{
   margin: 0 auto;
   padding: 60px 0;
 }
-.giallo{
-  background-color: #FCD99D;
-}
+
 
 .vuotolista2{
   display: flex;
@@ -481,7 +517,6 @@ footer {
   display: inline;
 }
 
-
 /*RESPONSIVE*/
 
 @media (max-width: 800px) {
@@ -562,6 +597,12 @@ footer {
     margin-bottom: 60px;
   }
 
+  .intro3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
   .image2,
   .image3,
   .image5,
@@ -616,12 +657,31 @@ footer {
     object-fit: cover;
   }
 
+  /*street food fusion funzionante*/
+
+  .list1{
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list2{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.list1 img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
   
   /*street food fusion*/
-  .intro3{
-    display: block;
 
-  }
 
   .sfondobg2 {
     width: 100%;
@@ -640,7 +700,7 @@ footer {
   .color{
     padding: 0;
   }
-  
+
   .vuotolista2 {
     flex-direction: column;
     gap: 20px;
